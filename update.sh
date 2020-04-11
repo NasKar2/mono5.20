@@ -11,7 +11,7 @@ fi
 # Initialize Variables
 JAIL_NAME=$1
 POOL_PATH="/mnt/v1"
-PORTS_PATH="${POOL_PATH/portsnap}"
+PORTS_PATH="${POOL_PATH}/portsnap"
 CONFIGS_PATH=$SCRIPTPATH/configs
 
 mkdir -p ${PORTS_PATH}/ports
